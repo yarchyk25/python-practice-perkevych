@@ -3,6 +3,7 @@
 Student: Yaroslav Perkevych
 Group: IT-32
 Course: Python programming, semester 1
+Email: yaroslav.perkevych@gmail.com
 
 ## Contents
 
