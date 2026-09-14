@@ -1,0 +1,34 @@
+#Завдання 4, Перкевич, ІТ-32
+
+print("Yaroslav Perkevych, IT-32")
+
+attempts = 0
+
+while True:
+    score = int(input("Enter your score (0-100): "))
+    attempts += 1
+
+    if score < 0:
+        print("Score cannot be negative")
+    elif score > 100:
+        print("Score is too big, maximum is 100")
+    else:
+        break
+
+if score >= 90:
+    grade = "A"
+elif score >= 82:
+    grade = "B"
+elif score >= 75:
+    grade = "C"
+elif score >= 64:
+    grade = "D"
+elif score >= 60:
+    grade = "E"
+else:
+    grade = "F"
+
+print(
+    f"Accepted after {attempts} attempts\n"
+    f"Grade: {grade}"
+)
